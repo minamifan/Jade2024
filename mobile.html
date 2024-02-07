@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/style.css" rel='stylesheet' type='text/css' />
+        <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,500;6..12,800&display=swap" rel="stylesheet">
+        <script src="js/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/a420aaa6d7.js" crossorigin="anonymous"></script>
+        <title>Document</title>
+    
+    </head>
+<body>
+    <header class="uxheader">
+        	<!-- container -->
+			<!-- header -->
+			<div id="home" class="header">
+				<div class="container">
+				<!-- top-hedader -->
+				<div class="top-header">
+					<!-- /logo -->
+					<!--top-nav---->
+						<div class="top-nav">
+							<div class="navigation">
+									<div class="logo">
+										<h1><a href="index.html"><span>J</span>ade</a></h1>
+									</div>
+									<div class="navigation-right">
+											<span class="menu"><img src="images/menu.png" alt=" " /></span>
+											<nav class="link-effect-3" id="link-effect-3">
+												<ul class="nav1 nav nav-wil">
+													<li class="active"><a data-hover="Home" href="index.html">Home</a></li>
+													<li><a class="scroll" data-hover="About" href="index.html#about">About</a></li>
+													<li><a class="scroll" data-hover="Services" href="index.html#services" >Services</a></li>
+													<li><a class="scroll" data-hover="Experience" href="index.html#work">Experience</a></li>
+													<li><a class="scroll" data-hover="Portfolio" href="index.html#blogs">Portfolio</a></li>
+													<li><a class="scroll" data-hover="Contact" href="index.html#contact">Contact</a></li>
+												</ul>
+											</nav>
+											<!-- script-for-menu -->
+												<script>
+												$( "span.menu" ).click(function() {
+													$( "ul.nav1" ).slideToggle( 300, function() {
+													// Animation complete.
+													});
+													});
+												</script>
+											<!-- /script-for-menu -->
+									</div>
+							<div class="clearfix"></div>
+                                    </div>
+            <div class="ux-content"   >                    
+                    <div class="uxtopimg1">
+                        <img src="../images/u4.jpg" alt="">
+                    </div>
+                    <div class="content1">
+                    <div class="mobile-content1">
+                     <h2>An app that helps students in shared housing find their favorite roommates in advance</h2>   
+                     <p>For young adults who have just come to Canada or have had a bad experience of sharing a house, roommates play a very important role in the experience of sharing a house, so I want to develop and design a software that can understand the living habits and hobbies of roommates in advance, and even communicate with them. Roommates contacted the host to rent an apartment together.</p>
+                    </div>
+                    <div class="mobile-side-content1">
+                        <h3>Contribution</h3>   
+                        <p>Whole precess:UX design, Graphic Design, Web Design, Proposal......</p>
+                        <h3>Teamn</h3>   
+                        <p>Jade Fan</p>
+                        <h3>Duration</h3>   
+                        <p>2 months</p>
+                    </div>
+                    </div>
+                    <div class="ux5">
+                    <div class="uxtopimg5">
+                        <img src="../images/u7.jpg" alt="">
+                        <img src="../images/u6.png" alt="">
+                    </div>
+                    <div class="mobile-content5">
+                        <h2>Idea enlightenment</h2>
+                        <p>In the last semester, the project of our group's ux research was to conduct a survey on unaffortable housing. In the real data of our survey, I found that most of the young adults rented houses, and most of the renters rented houses. 
+                            <br>However, whether you get along well with roommates in a shared apartment is an important factor that affects the happiness index of shared apartments, so I came up with the idea of making such an app to match roommates in advance.</p>
+                    </div>
+                   </div>
+                    <div class="ux6">
+                    <div class="uxtopimg6">
+                        <img src="../images/u10.png" alt="">
+                    </div>
+                    <div class="mobile-content6">
+                        <h2>user research</h2>
+                        <p>After I conducted a simple questionnaire survey among friends around me.
+                            <br>I found that in the process of sharing a house, there are several important factors that affect the user experience: The first is location, second is price, and the third is roommates,if it friendly? The fourth is whether the house is new or old.</p>
+                    </div>
+                    </div>
+                    <div class="ux7">
+                    <div class="uxtopimg7">
+                        <h2>Persona</h2>
+                        <img src="../images/u8.jpg" alt="">
+                        <img src="../images/u9.jpg" alt="">
+                    </div>
+                    <!-- <div class="mobile-content7">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div> -->
+                    </div>
+                    <div class="q">
+                      <h1>Is there a platform that allows users to learn about their roommate in advance?</h1>
+                    </div>
+                    <div class="uxtopimg2">
+                        <img src="../images/u2.png" alt="">
+                    </div>
+                    <div class="mobile-content2">
+                        <h2>Page logic diagram</h2>
+                        <p>In this app, there are two main lines. One is the same as the ordinary rental app, which has a house search function. In addition, there is another line which is the roommate search function. The premise of roommate search is that everyone has registered in the app. You always need to fill in your personal information, such as gender, living habits, etc.</p>
+                    </div >
+                    <div class="uxtopimg3">
+                    <img src="../images/u3.jpg" alt="">
+                    </div> 
+                    <div class="mobile-content3">
+                        <h2>Named-rentmate</h2>
+                        <p>I wanted to combine the naming of roommate and rent, so I finally positioned the name as rentmate, because both rent and roommate both start with R, so my logo is defined as two R's.</p>
+                    </div >
+                    <div class="uxtopimg4">
+                        <img src="../images/u5.jpg" alt="">
+                        <img src="../images/u1.png" alt="">
+                    </div> 
+                    <div class="mobile-content4">
+                        <h2>Thanks for looking at my case study!</h2>
+                        <p>If you have any questions, please contact my email:minamifan@gmail.com</p>
+                    </div >
+            </div>
+    </header>
+
+  
+    <footer>
+        <div class="footer" id="contact">
+            <div class="container">
+            <div class="service-head one text-center">
+                                <h4>CONTACT ME</h4>
+                                <h3>GET <span>IN TOUCH WITH ME</span></h3>
+                                <span class="border two"></span>
+                            </div>
+                <div class="mail_us">
+                    <div class="col-md-6 mail_left">
+                        <div class="contact-grid1-left">
+                            <div class="contact-grid1-left1">
+                                <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                                <h4>Contact By Email</h4>
+                                <ul>
+                                    <li>Mail1: <a href="mailto:info@example.com">minamifan962@gmail.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                            <div class="contact-grid1-left">
+                                <div class="contact-grid1-left1">
+                                    <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                                    <h4>Contact By Phone</h4>
+                                    <ul>
+                                        <li>Phone: 343-462-3082</li>
+                                    
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="contact-grid1-left">
+                                <div class="contact-grid1-left1">
+                                    <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                                    <h4>Looking For Address</h4>
+                                    <ul>
+                                        <li>Address: Ottawa,ON, Canada</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="col-md-6 mail_right">
+                        <form action="#" method="post">
+                            <input type="text" name="Name" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required>
+                            <input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required>
+                            <input type="text" name="Mobile number" value="Mobile number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile number';}" required>
+                            <textarea name="Message..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required>Message...</textarea>
+                            <input type="submit" value="Send">
+                            
+                        </form>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="copy_right text-center">
+                    <p>Copyright &copy; <a href=" " target="_blank" title="Jade">Jade 2024</a></p>
+                     <ul class="social-icons two">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://github.com/minamifan"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/hua-fan-309176254/"><i class="fa-brands fa-linkedin"></i></a>
+                                </ul>
+                </div>
+            </div>
+        </div>
+                    <!-- //footer -->
+    </footer>
+</body>
+</html>
