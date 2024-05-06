@@ -1261,47 +1261,17 @@ span.border.two:after {
 	filter: alpha(opacity=0);
 }
 /* -------------graphic-------------- */
-.card2-body h5{
-	font-size: 3rem;
-}
-.card1-body h5{
-	font-size: 3rem;
-}
-.card1{
-	margin:5rem;
-	text-align: center;
-	width: 100%;
-    padding: 20px;
-	border-radius: 5px;
-    background-color: #fff5f5;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  
-}
-.card1-body p{
-	text-align:left;
-}
-.card1-img img{
-	height: 60rem;
-}
-.card2{
-	margin:5rem;
-	text-align: center;
-	width: 100%;
-    padding: 20px;
-	border-radius: 5px;
-    background-color: #fff5f5;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  
-}
-.card2-body p{
-	text-align:left;
-}
-.card2-img img{
-	height: 30rem;
+.cup{
+	display: flex;
+	justify-content: center;
 	
 }
-.gra{
-	font-family: 'Nunito Sans', sans-serif;
+.cup img{
+	border-radius: 5px;
+	width: 35rem;
+	/* padding: 3rem; */
+	margin: 2rem;
+	margin-bottom: 3rem;
 }
 /* ------------art----------------- */
 .art2-body h5{
@@ -1366,7 +1336,8 @@ span.border.two:after {
 	/* background-color:rgba(0, 199, 169, 0.228); */
 }
 .content1{
-	margin: 10rem;
+	margin-left: 10rem;
+	margin-right: 10rem;
 	display: flex;
 }
 .mobile-side-content1 h3{
@@ -1400,6 +1371,7 @@ span.border.two:after {
 	border-radius: 5px;
 	/* background-color:rgba(0, 199, 169, 0.228); */
 }
+
 .uxtopimg3 img{
 	width: 500px;
 	border-radius: 5px;
@@ -1417,10 +1389,6 @@ span.border.two:after {
 }
 .mobile-content3 p{
 	width: 900px;
-	/* margin: 2rem; */
-
-	/* width: 1050px; */
-	
 	color:  #565656;
 	border-radius: 5px;
 }
@@ -1478,9 +1446,7 @@ span.border.two:after {
 .uxtopimg6 img{
 	width: 350px;
 	border-radius: 5px;
-	/* margin-left: 9%; */
-	/* margin-right: 20%; */
-	/* margin-top: 2rem; */
+
 }
 .mobile-content6 h2{
 	font-weight: bold;
@@ -1489,11 +1455,8 @@ span.border.two:after {
 .mobile-content6{
 	width: 550px;
 	margin:5rem;
-	/* padding: 3rem; */
-	/* margin: 2rem; */
 	color:  #282828;;
 	border-radius: 5px;
-	/* background-color:rgba(0, 199, 169, 0.228); */
 }
 .mobile-content6 p{
 	color:#5f5f5f
@@ -1504,9 +1467,6 @@ span.border.two:after {
 .uxtopimg7 img{
 	height: 250px;
 	border-radius: 5px;
-	
-	/* margin-left: 9%; */
-	/* margin-top: 2rem; */
 }
 .uxtopimg7 h2{
 	font-weight: bold;
@@ -1514,11 +1474,11 @@ span.border.two:after {
 }
 .mobile-content7 p{
 	width: 800px;
-	/* margin-left: 9%; */
+
 	margin: 2rem;
 	color:  #282828;;
 	border-radius: 5px;
-	/* background-color:rgba(0, 199, 169, 0.228); */
+
 }
 .q{
 	background-color: #5862ac;
@@ -1532,14 +1492,63 @@ span.border.two:after {
 }
 .uxheader{
 	font-family: 'Nunito Sans', sans-serif;
-	/* font-size: 15pt; */
 }
+/* -------------web----------------- */
+.web-content1 h2{
+	font-weight: bold;
+	font-size: 24pt;
+}
+.web-content1{
+	width: 950px;
+}
+.web6{
+	margin: 10rem;
+	display: flex;
+	justify-content: center;
+}
+.webimg6 img{
+	width: 600px;
+	border-radius: 5px;
+
+}
+
+
+.webimg3 img{
+	width: 500px;
+	border-radius: 5px;
+	margin-top: 2rem;
+	margin-left: 27%;
+}
+.webbtn{
+	text-align: center;
+	margin-top: 5rem;
+	
+}
+.webbtn button{
+	height: 50px;
+	width: 150px;
+  font-size: 18px; /* Adjust font size to make the text bigger */
+  background-color: #5862ac; /* Button background color */
+  color: #fff; /* Button text color */
+  border: 2px solid #5862ac; /* Add solid border */
+  border-radius: 8px; /* Add border radius for rounded corners */
+  cursor: pointer; 
+ 
+}
+.webbtn button a{
+	color: #fff;
+	
+}
+.webbtn button a:hover {
+	text-decoration: none;
+	
+  }
 /*-- responsive-design --*/
 @media(max-width:1366px){
 	.about-left-grid {
 		width: 70%;
 		float: right;
-		margin-right: 5em;
+		margin-right: 5rem;
 		min-height: 433px;
 	}
 	#work,.blog{
