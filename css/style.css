@@ -1790,6 +1790,9 @@ span.border.two:after {
 	display: flex;
 	flex-direction: column;
 }
+.cup img{
+    width: 90%;
+};
 /* ----------------work------------ */
 .homecontainer h3{
 	color: #212322;
