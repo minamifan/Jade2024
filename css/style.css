@@ -1685,14 +1685,14 @@ span.border.two:after {
 	}
 /* ------------mobil------------- */
 .content1 {
-	width: 350px;
+	width: 80%;
 	display: flex;
 	flex-direction:column;
 	margin: 0;
 	margin-left: 3rem;
 }
 .mobile-content1 {
-	width: 350px;
+	width: 90%;
 }
 .mobile-content1 h2{
 	font-size: 2rem;
@@ -1711,23 +1711,23 @@ span.border.two:after {
 	font-size: 1rem;
 }
 .uxtopimg5 {
-	width: 350px;
+	width: 80%;
 }
 .uxtopimg5 img{
-	width: 350px;
+	width:90%;
 	height: auto;
-	margin-bottom: 0;
+	margin: 3rem;
 }
 .mobile-content5{
 	margin-top: 0;
-	margin-left: 3rem;
+	margin-left: 4rem;
 }
 .mobile-content5 h2{
 	font-size: 1.5rem;
-	width: 350px;
+	width: 80%;
 }
 .mobile-content5 p{
-	width: 350px;
+	width: 80%;
 	font-size: 1rem;
 }
 .ux6{
